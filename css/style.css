@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box; }
 
-.contacto{
-    color: brown;
-}
+
 
 h1{
     color: rgb(239, 236, 241);
@@ -14,9 +12,57 @@ h1{
     font-family: fuente-titulo;
     font-size: 60px;
     padding: 30px;
-    border: dashed 2px greenyellow;
     margin: 10px;
     position: sticky;
     top: 0;
     width: 100%;
 }
+
+h2{
+    background-color: dodgerblue;
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+    margin: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+}
+
+.bordes-redondedeados{
+    border-radius: 20px;
+}
+
+.grid-descripcion{
+    width: 650px;
+    color: black;
+    border-radius: 15px;
+    border: 20px;
+}
+
+.grid-descripcion img{
+    width: 100px;
+    border: 10px;
+    border-color: rgb(223, 12, 12);
+}
+
+.grid-conteiner{
+    display: grid;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+h2{
+    color: black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    padding: 5px;
+    background-color: aqua;
+    color: rgb(211, 28, 37);
+    border-radius: 15px; }
+

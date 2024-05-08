@@ -1,0 +1,45 @@
+h1{
+    background-color: brown;
+    color:white;
+    flex-direction: column;
+    position: sticky;
+}
+
+.flex-container{
+    border: 10px;
+    color: rgb(48, 151, 182);
+    width: auto;
+    padding: 5px 10px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: rgb(160, 0, 0);
+    color: white;
+    font-family: sans-serif;
+}
+ 
+.grid-nosotros{
+    width: 650px;
+    color: black;
+    border-radius: 15px;
+    border: 20px;
+}
+
+.grid-nosotros img{
+    width: 100px;
+    border: 10px;
+    border-color: rgb(235, 121, 15);
+}
+
+.grid-conteiner{
+    display: grid;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+h2{
+    color: rgb(204, 94, 5);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.contacto{
+    color: brown;
+}
+
+h1{
+    color: rgb(239, 236, 241);
+    background-color: red;
+    text-align: center;
+    font-family: fuente-titulo;
+    font-size: 60px;
+    padding: 30px;
+    border: dashed 2px greenyellow;
+    margin: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
